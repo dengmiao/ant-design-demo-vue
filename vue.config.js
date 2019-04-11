@@ -58,11 +58,11 @@ module.exports = {
         ws: false,
         changeOrigin: true,
         pathRewrite: {
-          '/jeecg-boot': ''  //默认所有请求都加了jeecg-boot前缀，需要去掉
+          '/corgi-boot': ''  //默认所有请求都加了corgi-boot前缀，需要去掉
         }
       },*/
       '/corgi': {
-        target: 'http://localhost:7777', //请求本地 需要jeecg-boot后台项目
+        target: 'http://localhost:7777', //请求本地 需要corgi-boot后台项目
         ws: false,
         changeOrigin: true
       },
