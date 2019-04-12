@@ -42,10 +42,10 @@ const queryPermissionsByUser = (params)=>getAction("/sys/permission/queryByUser"
 const loadAllRoleIds = (params)=>getAction("/sys/permission/loadAllRoleIds",params);
 
 // 部门管理
-const queryDepartTreeList = (params)=>getAction("/sysdepart/sysDepart/queryTreeList",params);
-const queryIdTree = (params)=>getAction("/sysdepart/sysDepart/queryIdTree",params);
-const queryParentName   = (params)=>getAction("/sysdepart/sysDepart/queryParentName",params);
-const searchByKeywords   = (params)=>getAction("/sysdepart/sysDepart/searchBy",params);
+const queryDepartTreeList = (params)=>getAction("/sys/dept/queryTreeList",params);
+const queryIdTree = (params)=>getAction("/sys/dept/queryIdTree",params);
+const queryParentName   = (params)=>getAction("/sys/dept/queryParentName",params);
+const searchByKeywords   = (params)=>getAction("/sys/dept/searchBy",params);
 
 //日志管理
 const getLogList = (params)=>getAction("/sys/log/list",params);
