@@ -13,7 +13,7 @@ const getRoleList = (params)=>getAction("/sys/role/list",params);
 const deleteRole = (params)=>deleteAction("/sys/role/delete",params);
 const deleteRoleList = (params)=>deleteAction("/sys/role/deleteBatch",params);
 const checkRoleCode = (params)=>getAction("/sys/role/checkRoleCode",params);
-const queryall = (params)=>getAction("/sys/role/queryall",params);
+const queryall = (params)=>getAction("/sys/role/queryAll",params);
 
 //用户管理
 const addUser = (params)=>postAction("/sys/user/add",params);
